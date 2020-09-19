@@ -1,0 +1,17 @@
+select "std"
+min = 1
+max = 6
+
+roll_again = "yes"
+
+if (roll_again == "yes" || roll_again == "y") {
+    showln  ("Rolling the dices...")
+    showln  ("The values are....")
+    showln (rand(min, max))
+    showln  (rand(min, max))
+}
+    roll_again = readln("Roll the dices again?")
+ /* TODO: 
+   std module for standard functions
+   rand() function to generate random numbers from 1 to 6
+   */
