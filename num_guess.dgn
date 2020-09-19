@@ -1,0 +1,36 @@
+select "std"
+num = rand(0, 20)
+input = readln() 
+if (input == num) {
+  showln ("hit")
+}
+else if (input < num) {
+  showln ("Your number is too low")
+}
+else {
+  showln ("Your number is too high")
+}
+showln (num)
+
+/* TODO: 
+   the std module contains functions for 
+    standard functions.
+
+   the select keyword is used to select
+    the module name "std".
+
+   the rand() function is used to generate
+    random number. the two parameters passed 
+    was to generate random number from 0 t 20.
+
+   the readln() is used to get input from users.
+   
+   the if, else if and else statement is 
+    used for performing conditional statements.
+
+*/
+  
+
+    
+
+
